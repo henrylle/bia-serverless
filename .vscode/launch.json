@@ -9,5 +9,14 @@
       "localRoot": "${workspaceRoot}/hello-world",
       "remoteRoot": "/var/task"      
     }
+    {
+      "type": "node",
+      "request": "attach",
+      "port": 5858,
+      "address": "localhost",
+      "name": "API sam-bia: BIA",      
+      "localRoot": "${workspaceRoot}/bia",
+      "remoteRoot": "/var/task"      
+    }
   ]
 }
