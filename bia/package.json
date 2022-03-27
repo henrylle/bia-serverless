@@ -32,7 +32,9 @@
     "morgan": "^1.10.0",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "@vendia/serverless-express": "^4.5.3",
+    "sequelize": "^6.6.5"
   },
   "eslintConfig": {
     "extends": [
@@ -40,8 +42,6 @@
     ]
   },
   "devDependencies": {
-    "@vendia/serverless-express": "^4.5.3",
-    "sequelize": "^6.6.5",
     "sequelize-cli": "^6.2.0"
   }
 }
