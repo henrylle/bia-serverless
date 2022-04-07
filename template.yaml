@@ -13,7 +13,7 @@ Globals:
   Api:
     Cors:
       AllowMethods: "'GET, PUT, POST, DELETE, OPTIONS'"
-      AllowOrigin: "'http://localhost:3001'"
+      AllowOrigin: "'*'"
       AllowHeaders: "'Content-type, x-api-key'"     
 Resources:  
   TarefasFunction:
